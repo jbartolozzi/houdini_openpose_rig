@@ -1,0 +1,35 @@
+{
+    "joints": {
+        "Nose": {"position": [0, 1, 0], "color": "(255, 0, 0)"},
+        "Neck": {"position": [0, 0.9, 0], "color": "(255, 128, 0)"},
+        "RShoulder": {"position": [0.5, 0.9, 0], "color": "(255, 255, 0)"},
+        "RElbow": {"position": [0.75, 0.9, 0], "color": "(128, 255, 0)"},
+        "RWrist": {"position": [1, 0.9, 0], "color": "(0, 255, 0)"},
+        "LShoulder": {"position": [-0.5, 0.9, 0], "color": "(0, 255, 128)"},
+        "LElbow": {"position": [-0.75, 0.9, 0], "color": "(0, 255, 255)"},
+        "LWrist": {"position": [-1, 0.9, 0], "color": "(0, 128, 255)"},
+        "MidHip": {"position": [0, 0.5, 0], "color": "(0, 0, 255)"},
+        "RHip": {"position": [0.25, 0.5, 0], "color": "(128, 0, 255)"},
+        "RKnee": {"position": [0.25, 0.25, 0], "color": "(255, 0, 255)"},
+        "RAnkle": {"position": [0.25, 0, 0], "color": "(255, 0, 128)"},
+        "LHip": {"position": [-0.25, 0.5, 0], "color": "(255, 0, 0)"},
+        "LKnee": {"position": [-0.25, 0.25, 0], "color": "(255, 128, 0)"},
+        "LAnkle": {"position": [-0.25, 0, 0], "color": "(255, 255, 0)"}
+    },
+    "bones": {
+        "Nose-Neck": {"connect": ["Nose", "Neck"], "color": "(255, 153, 153)"},
+        "Neck-RShoulder": {"connect": ["Neck", "RShoulder"], "color": "(255, 204, 153)"},
+        "RShoulder-RElbow": {"connect": ["RShoulder", "RElbow"], "color": "(255, 255, 153)"},
+        "RElbow-RWrist": {"connect": ["RElbow", "RWrist"], "color": "(204, 255, 153)"},
+        "Neck-LShoulder": {"connect": ["Neck", "LShoulder"], "color": "(153, 255, 153)"},
+        "LShoulder-LElbow": {"connect": ["LShoulder", "LElbow"], "color": "(153, 255, 204)"},
+        "LElbow-LWrist": {"connect": ["LElbow", "LWrist"], "color": "(153, 255, 255)"},
+        "Neck-MidHip": {"connect": ["Neck", "MidHip"], "color": "(153, 153, 255)"},
+        "MidHip-RHip": {"connect": ["MidHip", "RHip"], "color": "(204, 153, 255)"},
+        "RHip-RKnee": {"connect": ["RHip", "RKnee"], "color": "(255, 153, 255)"},
+        "RKnee-RAnkle": {"connect": ["RKnee", "RAnkle"], "color": "(255, 153, 204)"},
+        "MidHip-LHip": {"connect": ["MidHip", "LHip"], "color": "(255, 153, 153)"},
+        "LHip-LKnee": {"connect": ["LHip", "LKnee"], "color": "(255, 204, 153)"},
+        "LKnee-LAnkle": {"connect": ["LKnee", "LAnkle"], "color": "(255, 255, 153)"}
+    }
+}
